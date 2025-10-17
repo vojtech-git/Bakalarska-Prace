@@ -1,0 +1,27 @@
+dynamicka tvorba mapy ze segmentu
+
+artefakty/zbrane (slash zbran short range, stab zbran long range, hitscan gun, molotov throwable, neco magic)
+
+prohledavani mapy agenty / sireni agentu po mape
+
+nepratelske AI (naprahne se a sekne rovne, naprahne se a sekne do sirky, hodi neco co leti a pak pristane na area, natahne a vystreli neco hitscan)
+
+puzzles segmenty
+
+prekazkove segmenty
+
+system prodavani
+
+inventar (1 - pesti, 2 - prvni inv slot, 3 - druhy inv slot..., kdyz full inv nemuzes sebrat)
+
+zobrazeni mapy system
+
+ukladani hry v prubehu
+
+leaderboard
+
+main menu
+
+settings menu
+
+ovladani hrace (wasd, left/right click)

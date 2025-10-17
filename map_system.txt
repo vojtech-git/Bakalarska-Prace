@@ -1,0 +1,14 @@
+zacinas uprostred mapy a cim dal se oddalujes tim jsou nepratelske segmenty slozitejsi a pratelske segmenty mene caste (nebo neco takoveho?)
+
+typy segmentu:
+- obsazeny nepratelskymi agenty (stredni skore ale nebezpeci zraneni)
+- puzzle (kdyz hrajes poprve slozity vyresit pozdeji jenom boj s casem, velke skore ale trest za nezvladnuti nebo moznost ze nic nenajdes)
+- nebezpecne prostredi (probihacka ale zadne nebo male skore za zvladnuti)
+- segment kde jsi v bezpeci a muzes prodavat
+- nakazeny segment (vysoke skore ale skoro nemozna obtiznost)
+
+segmenty se postupne nakazuji nepratelskymy agenty kteri te stopuji a agenty kteri te "hrebenove hledaji" od stredu
+
+chtel bych aby cast zabavy bylo RNG napr. drop rate artefaktu pri porazeni vsech nepratel, nebo drop rate artefaktu z puzzle segmentu
+
+na kazdem segmentu muze hrac zustat pouze omezeny cast jinak trest

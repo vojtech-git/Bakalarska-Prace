@@ -1,0 +1,7 @@
+kdyz se spawnes mas jenom pesti (omezeny range omezeny dmg)
+
+kdyz dostanes artefakt muzes ho pouzit jako zbran/temp. powerup/shield
+
+kdyz se dostanes na cash-in spot muzes si vybrat ktery artefakt "prodas" za skore
+
+zatim kazdy artefakt dava stejne skore a neresim synergii mezi artefaktama (ale mohl bych vylepsit napriklad pokud prodam nejake artefakty, ktere nemaji spolu dobrou bojovou synergii, najednou tak dostanu multiplyer)
