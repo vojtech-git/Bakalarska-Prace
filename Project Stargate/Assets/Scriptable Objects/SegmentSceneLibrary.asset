@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182679efdf22415e937d58c221d171e6, type: 3}
+  m_Name: SegmentSceneLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SegmentLibrary
+  buckets:
+  - category: 0
+    scenes:
+    - {fileID: 11400000, guid: c49532028b4a19dc7b275a51bf3f7af5, type: 2}
+  - category: 2
+    scenes:
+    - {fileID: 11400000, guid: 0e39a45b4fb455be4ab3846a549ae439, type: 2}
+  - category: 3
+    scenes:
+    - {fileID: 11400000, guid: 3ff400edbd9b1cde79e412810b86209e, type: 2}
+  - category: 1
+    scenes:
+    - {fileID: 11400000, guid: 3ff400edbd9b1cde79e412810b86209e, type: 2}
+  - category: 1
+    scenes:
+    - {fileID: 11400000, guid: 3ff400edbd9b1cde79e412810b86209e, type: 2}
+  - category: 4
+    scenes:
+    - {fileID: 11400000, guid: f9d1ef4e8f8a8339f89aa4ccea2b7f3d, type: 2}

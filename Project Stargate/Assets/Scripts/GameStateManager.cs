@@ -18,6 +18,6 @@ public class GameStateManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(firstScene);
+        MapRuntime.I.StartAtCenter();
     }
 }
