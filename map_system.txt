@@ -12,3 +12,11 @@ segmenty se postupne nakazuji nepratelskymy agenty kteri te stopuji a agenty kte
 chtel bych aby cast zabavy bylo RNG napr. drop rate artefaktu pri porazeni vsech nepratel, nebo drop rate artefaktu z puzzle segmentu
 
 na kazdem segmentu muze hrac zustat pouze omezeny cast jinak trest
+
+kazdy posun mezi segmenty posune jedotku casu i jedna
+
+zmena segmentu = zmena sceny
+
+za splneni sceny (porazeni nepratel, pokoreni prekazky, vyreseni puzzle) dostanes skore
+
+puzzle - word language puzzle, geometric puzzle
