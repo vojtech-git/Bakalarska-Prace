@@ -1,0 +1,7 @@
+Architektura Unity projektu s modulárními systémy (entity, mapy, AI, artefakty)
+
+inspirace predmetem OOP
+
+pujde o analyzu systemu a jejich interakce a pote navrzeni reseni interakce specifickymy navrhovymi vzory  (alespon 3)
+
+(mohlo by:) Navrh bude zamerenej na jednoduche pouzivani pro designery hry (hezkej unity editor, importovani featur atd...)
