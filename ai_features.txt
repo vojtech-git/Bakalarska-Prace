@@ -1,0 +1,4 @@
+tento soubor resi moznost pridani AI do prace
+
+napad 1:
+po spusteni hry se zeptam hrace: jak si predstavujes svet hry? hrac zada svoje preference ve forme kratkeho popisu jeho sveta. ve hre budou existovat "pribehove promenne" ktere ai naplni podle promptu uzivatele. napriklad jak se budou jmenovat mista na mape, jaky budou mit nazev a popis artefakty, dialogove moznosti s NPC, tema puzzle segmentu. (grafika by byla moc komplikovana takze by grafika musela byt nezavisla na pozadavku uzivatele.
