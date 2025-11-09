@@ -11,7 +11,7 @@ segmenty se postupne nakazuji nepratelskymy agenty kteri te stopuji a agenty kte
 
 chtel bych aby cast zabavy bylo RNG napr. drop rate artefaktu pri porazeni vsech nepratel, nebo drop rate artefaktu z puzzle segmentu
 
-na kazdem segmentu muze hrac zustat pouze omezeny cast jinak trest
+na kazdem segmentu muze hrac zustat pouze omezeny cast jinak trest. trest = stopujici agenti se priblizi o segment blize. pokud uz jsou na segmentu tak se naspawnuji dalsi.
 
 kazdy posun mezi segmenty posune jedotku casu i jedna
 
