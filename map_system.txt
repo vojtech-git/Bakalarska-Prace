@@ -22,3 +22,8 @@ za splneni sceny (porazeni nepratel, pokoreni prekazky, vyreseni puzzle) dostane
 puzzle - word language puzzle, geometric puzzle
 
 mapa by mohla byt hexagonalni se souradnicema (0,0,0)
+
+kdyz naleznu map segment tak se odkryje nekolik segmentu v okoli (jejich typ: puzzle, enemy, danger...)
+
+mapa se bude postupne "stavet" tim jak skrz ni prochazim. kdyz se vratim k segmentu bude ve stejnem stavu jako kdyz jsem ho opustil.
+v save systemu bude dict s Vector3 jak klic.
