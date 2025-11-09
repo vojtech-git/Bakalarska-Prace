@@ -1,3 +1,11 @@
+LLM jako pomocnik pri generovani sveta:
+
+cilem by bylo otestovat moznosti AI k modifikovani herniho sveta podle hracovych pozadavku. cilem neni implementovat opravdu zajimave zmeny v hernim svete jen prozkoumat jake jsou moznosti a zkusit naimplementovat tu nejzajimavejsi. nebo spis zvolit jednu ktera zni zajimave a tu zkusit implementovat i kdyz zmeny nebudou uplne působive
+
+definuji nejake textove promenne ketere jde vygenerovat pomoci LLM (nebo vymyslet co jineho by se dalo generovat). Napr: jmena a popis artefaktu, nazvy mist na mape, textove odpovedi NPC (format presne danych druhu odpovedi na akce hrace vyhrozovat/presvedcovat/podplatit), nahodne hlasky NPC pro boji, atd...
+
+
+Stary napad:
 Architektura Unity projektu s modulárními systémy (entity, mapy, AI, artefakty)
 
 inspirace predmetem OOP
