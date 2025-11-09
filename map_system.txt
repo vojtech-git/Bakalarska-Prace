@@ -27,3 +27,7 @@ kdyz naleznu map segment tak se odkryje nekolik segmentu v okoli (jejich typ: pu
 
 mapa se bude postupne "stavet" tim jak skrz ni prochazim. kdyz se vratim k segmentu bude ve stejnem stavu jako kdyz jsem ho opustil.
 v save systemu bude dict s Vector3 jak klic.
+
+delit obtiznost na cislo
+kazdy segment bude mit predgenerovanou verzi pro obtiznost 1-15 kde 15 bude skoro nemozne
+nebo rict ze level 15 je proste endgame a tezsi uz to nebude a kdyz bude na obtiznosti 15 tak jsi borec a ted proste dej co nejvetsi skore obtiznost uz se skalovat nebude
