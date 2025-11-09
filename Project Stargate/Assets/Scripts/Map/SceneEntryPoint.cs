@@ -1,14 +1,12 @@
-// Assets/Scripts/Map/SceneEntryPoint.cs
 using UnityEngine;
 
-// Umísti jeden objekt tohoto typu do KAŽDÉ cílové scény a nastav spawn body pro příchozí směr.
 public class SceneEntryPoint : MonoBehaviour
 {
     public Transform fromNorth;
     public Transform fromEast;
     public Transform fromSouth;
     public Transform fromWest;
-    public Transform playerPrefabIfNeeded; // volitelné: auto-spawn hráče, pokud není persistentní
+    public Transform playerPrefabIfNeeded;
 
     private void Start()
     {
@@ -22,7 +20,7 @@ public class SceneEntryPoint : MonoBehaviour
             _ => fromSouth
         };
 
-        var player = FindObjectOfType<PlayerController>(); // tvůj hráč skript
+        var player = FindAnyObjectByType<PlayerController>();
         if (player == null && playerPrefabIfNeeded != null)
             player = Instantiate(playerPrefabIfNeeded, Vector3.zero, Quaternion.identity).GetComponent<PlayerController>();
 

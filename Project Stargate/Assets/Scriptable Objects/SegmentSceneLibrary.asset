@@ -25,9 +25,6 @@ MonoBehaviour:
   - category: 1
     scenes:
     - {fileID: 11400000, guid: 3ff400edbd9b1cde79e412810b86209e, type: 2}
-  - category: 1
-    scenes:
-    - {fileID: 11400000, guid: 3ff400edbd9b1cde79e412810b86209e, type: 2}
   - category: 4
     scenes:
     - {fileID: 11400000, guid: f9d1ef4e8f8a8339f89aa4ccea2b7f3d, type: 2}

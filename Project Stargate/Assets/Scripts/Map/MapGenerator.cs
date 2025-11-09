@@ -1,4 +1,3 @@
-// Assets/Scripts/Map/MapGenerator.cs
 using UnityEngine;
 
 public class MapGenerator
@@ -9,7 +8,6 @@ public class MapGenerator
     public int seed = 0;
     public SegmentCategory startCategory = SegmentCategory.Start;
 
-    [ContextMenu("Generate Logical Map")]
     public void Generate()
     {
         if (output == null || library == null) { Debug.LogError("Chybí library nebo output."); return; }
@@ -19,20 +17,20 @@ public class MapGenerator
         int cx = width / 2, cy = height / 2;
 
         for (int y = 0; y < height; y++)
-        for (int x = 0; x < width; x++)
-        {
-            bool isCenter = x == cx && y == cy;
-            var cat = isCenter ? startCategory : PickCategory();
-            var def = library.GetRandom(cat);
+            for (int x = 0; x < width; x++)
+            {
+                bool isCenter = x == cx && y == cy;
+                var cat = isCenter ? startCategory : PickCategory();
+                var def = library.GetRandom(cat);
 
-            var c = output.Get(x, y);
-            c.category = cat;
-            c.scene = def;
-            c.openN = y < height - 1;
-            c.openE = x < width - 1;
-            c.openS = y > 0;
-            c.openW = x > 0;
-        }
+                var c = output.Get(x, y);
+                c.category = cat;
+                c.scene = def;
+                c.openN = y < height - 1;
+                c.openE = x < width - 1;
+                c.openS = y > 0;
+                c.openW = x > 0;
+            }
 
 #if UNITY_EDITOR
         UnityEditor.EditorUtility.SetDirty(output);

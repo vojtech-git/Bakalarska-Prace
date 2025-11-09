@@ -15,5 +15,6 @@ public class MapDefinition : ScriptableObject
     }
 
     public Cell Get(int x, int y) => cells[y * width + x];
+    
     public bool InBounds(int x, int y) => x >= 0 && y >= 0 && x < width && y < height;
 }
