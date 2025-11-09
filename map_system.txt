@@ -19,7 +19,7 @@ zmena segmentu = zmena sceny
 
 za splneni sceny (porazeni nepratel, pokoreni prekazky, vyreseni puzzle) dostanes skore
 
-puzzle - word language puzzle, geometric puzzle
+puzzle - word language puzzle, geometric puzzle, classic riddle
 
 mapa by mohla byt hexagonalni se souradnicema (0,0,0)
 
